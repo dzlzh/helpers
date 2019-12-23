@@ -1,0 +1,21 @@
+{
+    "name": "dzlzh/helpers",
+    "description": "助手类",
+    "keywords": ["helper", "helpers"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dzlzh",
+            "email": "dzlzh@null.net"
+        }
+    ],
+    "require": {
+      "php":">=7.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Dzlzh\\Helpers\\": "src"
+      }
+    }
+}
